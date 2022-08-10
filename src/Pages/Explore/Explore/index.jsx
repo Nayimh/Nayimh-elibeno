@@ -10,7 +10,7 @@ function ExploreMain() {
           <div className="container mx-auto py-[120px]">
         <Explore />
         <div className='grid justify-center mt-16'>
-          <div className='flex gap-6 font-manrope text-white font-semibold '>
+          <div className='flex flex-wrap justify-center gap-6 font-manrope text-white font-semibold '>
           <button className='py-3 px-[33px] bg-lightBlue rounded hover:bg-pink text-base leading-loose '>Perv</button>
           <button className='py-3 px-[16.5px] bg-lightBlue rounded hover:bg-pink leading-loose '> 1 </button>
           <button className='py-3 px-[16.5px] bg-lightBlue rounded hover:bg-pink leading-loose '> 2 </button>

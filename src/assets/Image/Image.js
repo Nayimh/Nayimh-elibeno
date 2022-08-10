@@ -71,8 +71,12 @@ import sale from "./icons/sale.png";
 import whiteCircle from './icons/whiteCircle.png'
 import imgIcon from "./icons/imgicon.png";
 import time from './icons/timew.png';
+import creator from './icons/creator.png';
+import smt from './icons/smt.png';
 
 export default {
+    creator,
+    smt,
     time,
     imgIcon,
     whiteCircle,

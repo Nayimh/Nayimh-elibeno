@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className=" py-[50px] md:py-[120px] bg-lightBlue">
       <div className="container mx-auto">
-        <div className="flex mx-2 md:mx-1 gap-5 items-center md:justify-between">
+        <div className="flex flex-wrap md:flex-nowrap mx-2 md:mx-1 gap-5 items-center justify-center md:justify-between">
           <div className="flex items-center gap-1">
             <span>
               {" "}
@@ -31,12 +31,12 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col mx-2 md:mx-1 lg:flex-row justify-center md:justify-between gap-20   my-16 py-16  w-auto  border-t border-b border-border-white border-dashed">
-          <div className="w-[312px]">
+          <div className=" w-full md:w-[312px]">
             <p className="mb-4 text-light-white leading-loose text-base font-normal font-manrope">
               Be can of packed he sighed. On into table is take titles
               bits avoid afforded step, up true,a ancient indication
             </p>
-            <div className="flex justify-between items-center w-[312px] h-[50px] gap-2 border border-dashed rounded-[6px] border-border-white ">
+            <div className="flex justify-between items-center w-full md:w-[312px] h-[50px] gap-2 border border-dashed rounded-[6px] border-border-white ">
               <input
                 className="bg-lightBlue w-9/12 ml-[13.1px] focus:outline-none"
                 type="text"
@@ -67,7 +67,7 @@ function Footer() {
                           <li className="cursor-pointer font-normal font-manrope text-light-white text-base leading-relaxed">Single Creator</li>
                           
             </div>
-                      <div className="list-none grid gap-4 w-[129px]">
+                      <div className="list-none grid gap-4 w-w-[129px]">
                           <h2 className="font-syne text-lg text-white  leading-relaxed font-bold mb-4 md:mb-10"> Explore </h2>
 
                           <li className="cursor-pointer font-normal font-manrope text-light-white text-base leading-relaxed ">Home</li>

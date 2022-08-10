@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Image } from "../../../assets/Image/index";
 
 function Explore() {
@@ -30,9 +31,11 @@ function Explore() {
                         <div className='cart__btn--heading'>
                             <span> <img src={data?.icon1} alt="" /> </span> <p > {data?.title} </p>
                         </div>  
-                        <div className='btn'>
+                                <Link state={`Explore > ${data?.id} `} to={`/explore/${data?.id}`} >
+                                 <div className='btn'>
                                     <p>{ data?.id === 2 ? "bid" : "buy" }</p> <img src={data?.icon2} alt="" /> 
-                        </div>
+                                    </div>
+                                    </Link>
                     </div>
                     <div className="card__text">
                                 <h2>

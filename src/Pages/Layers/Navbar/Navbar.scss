@@ -1,188 +1,174 @@
 @import "../../../assets/variable.scss";
 
-.navBar{
-    width: 100%;
-    // max-width: 1320px;
-    margin: auto;
+.navBar {
+  width: 100%;
+  // max-width: 1320px;
+  margin: auto;
 
-    .navBar__container{
-        // width: 100%;
-        height: 104px;
+  .navBar__container {
+    // width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: $gap-xs;
+      width: 25%;
+      &__img {
+        width: 41px;
+        height: 40px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .brand {
+        h1 {
+          font-family: $fontfamily-primary;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          color: $primay-fontColor;
+          line-height: $line-hight-primary;
+        }
+      }
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 69%;
+      list-style: none;
+
+      .nav__menu {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        gap: $gap-lg;
+        font-family: $fontfamily-secondary;
 
-        .logo{
+        li {
+          color: $secondary-fontColor;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: $line-hight-primary;
+          cursor: pointer;
+          transition: all 0.2s ease-in;
+          position: relative;
+          text-decoration: none;
+          &:hover,
+          &:active {
+            color: $orange-color;
+          }
+
+          .dropdown {
             display: flex;
             align-items: center;
             gap: $gap-xs;
-            width: 25%;
-            &__img{
-                width: 41px;
-                height: 40px;
 
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
+            .icon {
+              margin-top: -5px;
+              transition: all 0.3s ease-in;
             }
+          }
 
-            .brand{
-                h1{
-                    font-family: $fontfamily-primary;
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 36px;
-                    color: $primay-fontColor;
-                    line-height: $line-hight-primary;
-                }
-            }
-        }
-
-        .nav{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 69%;
-            list-style: none;
-
-            .nav__menu{
-                display: flex;
-                gap: $gap-lg;
-                font-family: $fontfamily-secondary;
-
-                li{
-                    color: $secondary-fontColor;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    line-height: $line-hight-primary;
-                    cursor: pointer;
-                    transition: all 0.2s ease-in;
-                    position: relative;
-                    text-decoration: none;
-                    &:hover, &:active{
-                        color: $orange-color;
-
-                    }
-
-                    .dropdown{
-                            
-                          display: flex;
-                          align-items: center;
-                          gap: $gap-xs;
-                        
-                          .icon{
-                           margin-top: -5px;
-                           transition: all 0.3s ease-in;
-                          }
-                    }
-
-                    .menu{
-                        
-                        position: absolute;
-                        transition: all 0.5s ease-in;
-                        visibility: hidden;
-                        opacity: 0;
-
-                        p{
-                            margin-top: 10px;
-                            width: 120px;
-                            transition: all 0.3s ease-in;
-                            color: $primay-fontColor;
-
-                            &:hover{
-                                color: $orange-color;
-                            }
-                        }
-                    }
-
-                    &:hover{
-                        .menu{
-                           
-                           visibility: visible;
-                           opacity: 1;
-                          
-                        }
-                    }
-                }
-            }
-            .navBar__btn{
-                display: flex;
-                gap: $gap-sm;
-                font-family: 'Manrope';
-                font-style: normal;
-                
-                .login {
-                   
-                      
-                            color: $primay-fontColor;
-                            font-size: 12px;
-                            padding: 8px 12px;
-                            border: 1px solid $orange-color;
-                            background-color: $primary-bgColor;
-                            border-radius: 4px;
-        
-                            &:hover{
-                                background-color: $orange-color;
-                                border: 1px solid $orange-color;
-                            }
-                            
-                        
-                    
-                }
-                .signup{
-
-                   
-                        background-color: $orange-color;
-                        border: 1px solid $orange-color;
-                        color: $primay-fontColor;
-                        font-size: 12px;
-                        padding: 8px 12px;
-                        border-radius: 4px;
-
-                        // &:hover{
-                        //     color: $primay-fontColor;
-                        //     border: 1px solid $orange-color;
-                        //     background-color: $primary-bgColor;
-                        // }
-                }
-            }
-            
-        }
-        .toggle__button{
-            color: $primay-fontColor;
+          .menu {
             position: absolute;
-            right: 30px;
+            transition: all 0.5s ease-in;
+            visibility: hidden;
             opacity: 0;
-            cursor: pointer;
-            svg{
-                width: 30px;
-                height: 30px;
-                font-weight: 800;
+
+            p {
+              margin-top: 10px;
+              width: 120px;
+              transition: all 0.3s ease-in;
+              color: $primay-fontColor;
+
+              &:hover {
+                color: $orange-color;
+              }
             }
+          }
+
+          &:hover {
+            .menu {
+              visibility: visible;
+              opacity: 1;
+            }
+          }
         }
+      }
+      .navBar__btn {
+        display: flex;
+        gap: $gap-sm;
+        font-family: "Manrope";
+        font-style: normal;
+
+        .login {
+          color: $primay-fontColor;
+          font-size: 12px;
+          padding: 8px 12px;
+          border: 1px solid $orange-color;
+          background-color: $primary-bgColor;
+          border-radius: 4px;
+
+          &:hover {
+            background-color: $orange-color;
+            border: 1px solid $orange-color;
+          }
+        }
+        .signup {
+          background-color: $orange-color;
+          border: 1px solid $orange-color;
+          color: $primay-fontColor;
+          font-size: 12px;
+          padding: 8px 12px;
+          border-radius: 4px;
+
+          // &:hover{
+          //     color: $primay-fontColor;
+          //     border: 1px solid $orange-color;
+          //     background-color: $primary-bgColor;
+          // }
+        }
+      }
     }
+    .toggle__button {
+      color: $primay-fontColor;
+      position: absolute;
+      right: 30px;
+      opacity: 0;
+      cursor: pointer;
+      svg {
+        width: 30px;
+        height: 30px;
+        font-weight: 800;
+      }
+    }
+  }
 }
 
-@media only screen and (max-width: 1440px){
-    .navBar{
-        width: 100%;
-        // max-width: 1170px;
-        .navBar__container{
-         
-            .nav{
-                gap: 20px;
-            }
-        }
-
+@media only screen and (max-width: 1440px) {
+  .navBar {
+    width: 100%;
+    // max-width: 1170px;
+    .navBar__container {
+      .nav {
+        gap: 20px;
+      }
     }
+  }
 }
 
 // @media only screen and (max-width: 1100px){
 //     .navBar{
 //         .navBar__container{
-            
+
 //             justify-content: space-between;
 
 //             .logo{
@@ -191,92 +177,84 @@
 
 //             .nav{
 //                 width: 75%;
-                
-                
+
 //             }
 //         }
 //     }
 // }
 
+@media only screen and (max-width: 1024px) {
+  .navBar {
+    // max-width: 1020px;
+    width: 100%;
 
-@media only screen and (max-width: 1024px){
-    .navBar{
-        // max-width: 1020px;
-       width: 100%;
-       
-        .navBar__container{
-           position: relative;
-            .logo{
-                width: 100%;
-            }
-            .nav{
-                flex-direction: column;
-                    justify-content: flex-start;
-                    margin-top: 70px;
-                    align-items: center;
-                    width: 100vw;
-                    max-width: 400px;
-                    padding: 20px 0 50px 0;
-                    position: absolute;
+    .navBar__container {
+      position: relative;
+      .logo {
+        width: 100%;
+      }
+      .nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 70px;
+        align-items: center;
+        width: 100vw;
+        max-width: 400px;
+        padding: 20px 0 50px 0;
+        position: absolute;
 
-                    top: 2px;
-                    right: 0;
-                    background-color: $secondary-bgColor;
-                    border-radius: 14px;
-                    transition: 0.3s ease-in;
-                    .nav__menu{
-                        flex-direction: column;
-                        justify-content: flex-start;
-                        align-items: center;
-                       
-                        
-                    li{
-                        
-                        margin-top: 30px;
-                        
+        top: 2px;
+        right: 0;
+        background-color: $secondary-bgColor;
+        border-radius: 14px;
+        transition: 0.3s ease-in;
+        .nav__menu {
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
 
-                        .menu{
-                            transition: 0.5s ease-in;
-                            margin-top: 8px;
-                            padding: 20px;
-                            border-radius: 10px;
-                            background-color: $primary-bgColor;
-                            z-index: 55;
-                            
-                        }
-                    }
-                    
-                }
-                .navBar__btn{
-                  margin-top: 50px;
-                }
-                
-            }
-            .nav.hide{
-                opacity: 0;
-            }
+          li {
+            margin-top: 30px;
 
-            .toggle__button{
-                opacity: 1;
-                right: 0px;
-                top: 40px;
-                transition: 0.5s ease-in;
+            .menu {
+              transition: 0.5s ease-in;
+              margin-top: 8px;
+              padding: 20px;
+              border-radius: 10px;
+              background-color: $primary-bgColor;
+              z-index: 555;
             }
+          }
         }
+        .navBar__btn {
+          margin-top: 50px;
+        }
+      }
+      .nav.hide {
+        opacity: 0;
+      }
+
+      .toggle__button {
+        opacity: 1;
+        right: 0px;
+        top: 40px;
+        transition: 0.5s ease-in;
+      }
     }
+  }
 }
 
-@media only screen and (max-width: 768px){
-    .navBar{
-        .navBar__container{
-            width: 100%;
-            .logo{
-                .brand{
-                    h1{
-                        font-size: 35px;
-                    }
-                }
-            }
+@media only screen and (max-width: 768px) {
+  .navBar {
+    .navBar__container {
+      width: 100%;
+      .logo {
+        .brand {
+          h1 {
+            font-size: 35px;
+          }
         }
+      }
     }
+  }
 }

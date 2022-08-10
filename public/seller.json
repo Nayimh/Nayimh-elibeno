@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/9cYH8d3/seller1.png",
+    "name": "Carry White",
+    "item": 680
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/25s8X83/seller2.png",
+    "name": "Jimmy Deo",
+    "item": 24
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/WzMcKRw/seller3.png",
+    "name": "Marry Smith",
+    "item": 30
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/mTsZJjM/seller4.png",
+    "name": "Morgan Deo",
+    "item": 42
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/pjPtfd2/seller5.png",
+    "name": "Alex Jones",
+    "item": 26
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/gdW0nXs/seller6.png",
+    "name": "Chiris Deo",
+    "item": 24
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/4tPQbSR/seller7.png",
+    "name": "Aman Don",
+    "item": 68
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/XjvfKHH/sellerSp.png",
+    "name": "Carry White",
+    "item": 680
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/QFkv8TJ/seller10.png",
+    "name": "Jimmy Deo",
+    "item": 525
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/QFkv8TJ/seller10.png",
+    "name": "Marry Smith",
+    "item": 24
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/FBRC4zC/seller11.png",
+    "name": "Morgan Deo",
+    "item": 55
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/bHGQjdb/seller12.png",
+    "name": "Alex Jones",
+    "item": 85
+  },
+
+  {
+    "id": 13,
+    "img": "https://i.ibb.co/WV6ddLg/seller13.png",
+    "name": "Chiris Deo",
+    "item": 24
+  },
+  {
+    "id": 14,
+    "img": "https://i.ibb.co/DfXNRWG/seller14.png",
+    "name": "Aman Don",
+    "item": 28
+  }
+]

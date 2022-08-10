@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/GpXGHym/explore3.png",
+    "time": {
+      "date": "10",
+      "hours": "10",
+      "minutes": "12",
+      "second": "04"
+    },
+    "name": "Hills of Taitan",
+    "author": "By @Carry_Michel",
+    "qty": "0.140 ETH"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/KFPkwvS/explore4.png",
+    "time": {
+      "date": "06",
+      "hours": "05",
+      "minutes": "02",
+      "second": "04"
+    },
+    "name": "City of Taitan",
+    "author": "By @Carry_Nichel",
+    "qty": "0.160 ETH"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/R3qCWtX/explore-H3.png",
+    "time": {
+      "date": "06",
+      "hours": "05",
+      "minutes": "02",
+      "second": "04"
+    },
+    "name": "Hills of Taitan",
+    "author": "By @Carry_Michel",
+    "qty": "0.140 ETH"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/3rqk9Gb/explore2.png",
+    "time": {
+      "date": "06",
+      "hours": "05",
+      "minutes": "02",
+      "second": "04"
+    },
+    "name": "Marcos Colorart",
+    "author": "Comander Taitan",
+    "qty": "0.160 ETH"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/t8kpW8z/explore5.png",
+    "time": {
+      "date": "06",
+      "hours": "05",
+      "minutes": "02",
+      "second": "04"
+    },
+    "name": "Capital Taitan",
+    "author": "By @Michel_George",
+    "qty": "0.140 ETH"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/DQqJvgm/explore6.png",
+    "time": {
+      "date": "06",
+      "hours": "05",
+      "minutes": "02",
+      "second": "04"
+    },
+    "name": "Taitan Rainbow",
+    "author": "By @Caliber.85",
+    "qty": "4.020ETH"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/XbBTqbC/explore-TH5.png",
+    "time": {
+      "date": "06",
+      "hours": "05",
+      "minutes": "02",
+      "second": "04"
+    },
+    "name": "Happily Kids",
+    "author": "By @Kids_Arts",
+    "qty": "1.030ETH"
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/syPZjvP/explore8.png",
+    "time": {
+      "date": "06",
+      "hours": "05",
+      "minutes": "02",
+      "second": "04"
+    },
+    "name": "City of Taitan",
+    "author": "By @Michel_Aew",
+    "qty": "0.440ETH"
+  }
+]

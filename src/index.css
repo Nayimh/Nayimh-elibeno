@@ -1,0 +1,39 @@
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Syne', sans-serif;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1A1E49;
+    
+    
+}
+
+.checkBox div label input[type="checkbox"]:checked ~ span{
+    background: rgba(250, 92, 109, 1);
+}
+
+.active{
+    color: #F9574B;
+}
+
+@tailwind base;
+
+
+@tailwind components;
+
+
+
+@tailwind utilities;

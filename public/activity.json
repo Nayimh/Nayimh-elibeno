@@ -1,0 +1,45 @@
+[
+    {
+        "id" : 1,
+        "img" : "https://i.ibb.co/2hbxwRM/Ranking1.png",
+        "name" : "Creative Art Collection",
+        "title" : "Listing by: @Marry_Morgan",
+        "time" : "2 Munites Ago"
+    },
+    {
+        "id" : 2,
+        "img" : "https://i.ibb.co/F0Fmd2L/activity2.png",
+        "name" : "Merry Morgan",
+        "title" : "Start Following You",
+        "time" : "8 Munites Ago"
+    },
+    {
+        "id" : 3,
+        "img" : "https://i.ibb.co/9Gs9D6R/activity3.png",
+        "name" : "Comander Taitan #2",
+        "title" : "Purchased by: @Marry_Morgan for 0.78ETH from @Alex_Tomas",
+        "time" : "22 Munites Ago"
+    },
+    {
+        "id" : 4,
+        "img" : "https://i.ibb.co/F0Fmd2L/activity2.png",
+        "name" : "Chiristoper Alex",
+        "title" : "Unfollowed You",
+        "time" : "30 Munites Ago"
+    },
+    {
+        "id" : 5,
+        "img" : "https://i.ibb.co/k3THhTM/activity4.png",
+        "name" : "Blackee Lady",
+        "title" : "@Marry_Morgan bid one of your item: Black Sheep 0.44ETH",
+        "time" : "40 Munites Ago"
+    },
+    {
+        "id" : 6,
+        "img" : "https://i.ibb.co/F0Fmd2L/activity2.png",
+        "name" : "Alex Anderson",
+        "title" : "Start Following You",
+        "time" : "1 Hour Ago"
+    }
+]
+

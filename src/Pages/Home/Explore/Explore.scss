@@ -1,0 +1,197 @@
+@import "../../../assets/variable.scss";
+
+.explore{
+    width: 100%;
+    
+    
+    .explore__container{
+        
+        
+      
+        
+        .explore__heading{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            margin-bottom: $gap-xl;
+
+            h1{
+                font-family: $fontfamily-primary;
+                color: $primay-fontColor;
+                line-height: $line-hight-primary;
+                font-weight: 700;
+               
+                
+            }
+            
+            div{
+
+                button{
+                    display:  flex;
+                    align-items: center;
+                    color: $primay-fontColor;
+                    font-family: $fontfamily-primary;
+                    padding: 12px 24px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    gap: $gap-sm;
+                    background-color: $secondary-bgColor;
+                    border-radius: 8px;
+                    border: none;
+                    cursor: pointer;
+
+                    span{
+                        line-height: 0;
+                    }
+
+                }
+            }
+
+
+
+        }
+
+        .explore__cards{
+            
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            
+            .single__card{
+                background-color: $secondary-bgColor;
+                width: 312px;
+                height: 473px;
+                border-radius: 8px;
+                
+                .content__wrapper{
+                    padding: 24px;
+
+                    .card__img{
+                        margin-bottom: 24px;
+                        position: relative;
+
+                        .dot{
+                            position: absolute;
+                            top: 20px;
+                            right: 20px;
+                            width: 29px;
+                            height: 29px;
+                            background-color: $secondary-bgColor;
+                            border-radius: 4px;
+                            display: grid;
+                            place-items: center;
+
+                        }   
+                    }
+
+                }
+
+                .card__content{
+                    .card__btn{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .cart__btn--heading{
+                            display: flex;
+                            align-items: center;
+                            gap: $gap-xs;
+
+                           
+                            p{
+                                color: $secondary-fontColor;
+                                font-family: $fontfamily-primary;
+                                font-size: 12px;
+                                line-height: $line-hight-primary;
+                                font-weight: 400;
+                                letter-spacing: 0.3px;
+                                // line-height: 14.4px;
+                            }
+
+                        }
+                        .btn{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: $gap-sm;
+                            width: 73.57px;
+                            height: 36px;
+
+                            border: 1px solid #FA5C6D;
+                            border-radius: 8px;
+                            padding: 8px 15.5px;
+                            cursor: pointer;
+                            margin-bottom: 16px;
+
+                            p{
+                                font-family: $fontfamily-primary;
+                                font-style: normal;
+                                line-height: $line-hight-secondary;
+                                font-size: 12px;
+                                font-weight: 600;
+                                color: $primay-fontColor;
+                                letter-spacing: 0.5px;
+                            }
+
+                            &:hover{
+                                background-color: $orange-color;
+                                border-radius: 4px;
+                            }
+                        }
+                    }
+
+                    .card__text{
+                        h2{
+                            font-family: $fontfamily-secondary;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: $line-hight-primary;
+                            color: $primay-fontColor;
+                        }
+
+                        p{
+                            font-family: $fontfamily-primary;
+                            line-height: $line-hight-primary;
+                            color: $primay-fontColor;
+                            font-size: 12px;
+                            letter-spacing: 0.2px;
+                            font-weight: 400;
+                            margin-top: 8px;
+                            margin-bottom: 16px;
+                        }
+                    }
+                    .card__footer{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        gap: $gap-sm;
+                        span{
+                            display: grid;
+                            place-items: center;
+                            width: 28px;
+                            height: 28px;
+                            background: $primary-bgColor;
+                            border-radius: 4px;
+                            padding: 10px;
+
+                        }
+
+                        h2{
+                            color: $primay-fontColor;
+                            font-family: $fontfamily-primary;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: $line-hight-primary;
+                            
+                        }
+                    }
+                }
+                
+            }
+
+        }
+
+    }
+}

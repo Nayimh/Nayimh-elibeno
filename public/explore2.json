@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/sFsjjD9/explore2-img1.png",
+        "checkIcon": "https://i.ibb.co/R0FJLQP/tick.png",
+        "dimondIcon": "https://i.ibb.co/YkjHRXq/dimond-Icon.png",
+        "outlineHeartIcon": "https://i.ibb.co/2d9Thyw/outline-Heart-Icon.png",
+        "title": "Creative arts Collections",
+        "author": "By @Carry_Michel",
+        "items": "680 Items",
+        "reaction": "8.6 K"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/4RVZWpb/explore2-img2.png",
+        "checkIcon": "https://i.ibb.co/R0FJLQP/tick.png",
+        "dimondIcon": "https://i.ibb.co/YkjHRXq/dimond-Icon.png",
+        "outlineHeartIcon": "https://i.ibb.co/2d9Thyw/outline-Heart-Icon.png",
+        "title": "Creative arts Collections",
+        "author": "By @Carry_Michel",
+        "items": "680 Items",
+        "reaction": "8.6 K"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/G7QQ7vt/explore2-img3.png",
+        "checkIcon": "https://i.ibb.co/R0FJLQP/tick.png",
+        "dimondIcon": "https://i.ibb.co/YkjHRXq/dimond-Icon.png",
+        "outlineHeartIcon": "https://i.ibb.co/2d9Thyw/outline-Heart-Icon.png",
+        "title": "Creative arts Collections",
+        "author": "By @Carry_Michel",
+        "items": "680 Items",
+        "reaction": "8.6 K"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/GRMQsYW/explore2-img4.png",
+        "checkIcon": "https://i.ibb.co/R0FJLQP/tick.png",
+        "dimondIcon": "https://i.ibb.co/YkjHRXq/dimond-Icon.png",
+        "outlineHeartIcon": "https://i.ibb.co/2d9Thyw/outline-Heart-Icon.png",
+        "title": "Creative arts Collections",
+        "author": "By @Carry_Michel",
+        "items": "680 Items",
+        "reaction": "8.6 K"
+    }
+]

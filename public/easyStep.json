@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "stepNumber": "01",
+        "stepIcon": "https://i.ibb.co/2dPcB4G/cursor.png",
+        "stepName": "Create account by few clicks."
+    },
+    {
+        "id": 2,
+        "stepNumber": "02",
+        "stepIcon": "https://i.ibb.co/hLGKxD4/chair.png",
+        "stepName": "Enter your wallet address."
+    },
+    {
+        "id": 3,
+        "stepNumber": "03",
+        "stepIcon": "https://i.ibb.co/t3Fz3NP/dotarrow.png",
+        "stepName": "Create your nfts Collection"
+    },
+    {
+        "id": 4,
+        "stepNumber": "04",
+        "stepIcon": "https://i.ibb.co/LCP202p/euro.png",
+        "stepName": "Sales your nft’s items"
+    }
+]

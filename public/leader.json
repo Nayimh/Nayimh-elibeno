@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/kS2z9RP/leader1.png",
+        "icon": "https://i.ibb.co/6FjQh0q/leader-Board-Up-Arrow.png",
+        "name": "David Smith",
+        "author": "@david_smith",
+        "products": [
+            {
+                "img": "https://i.ibb.co/SvKvrPn/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/N1TFj7G/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/41SYhJr/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/TL9x6PT/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/vqTMZ70/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/j8fZm6Q/leader2.png",
+        "icon": "https://i.ibb.co/sFfPSGK/leader-Board-Down-Arrow.png",
+        "name": "Marcos Tomas",
+        "author": "@marcos_mas04",
+        "products": [
+            {
+                "img": "https://i.ibb.co/PMGQTM3/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/WBpnQTj/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/gS2rCdT/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/pLXdj9D/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/3vcDGch/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/FnJY6H8/leader3.png",
+        "icon": "https://i.ibb.co/sFfPSGK/leader-Board-Down-Arrow.png",
+        "name": "Creativeno Artis",
+        "author": "@artist_creatino",
+        "products": [
+            {
+                "img": "https://i.ibb.co/j8fZm6Q/leader2.png"
+            },
+            {
+                "img": "https://i.ibb.co/FnJY6H8/leader3.png"
+            },
+            {
+                "img": "https://i.ibb.co/55tsxQr/leader5.png"
+            },
+            {
+                "img": "https://i.ibb.co/hYm9hMS/leader8.png"
+            },
+            {
+                "img": "https://i.ibb.co/jLZYHF3/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/TtdBqrN/leader4.png",
+        "icon": "https://i.ibb.co/6FjQh0q/leader-Board-Up-Arrow.png",
+        "name": "Linda Lucy",
+        "author": "@lucy_linda",
+        "products": [
+            {
+                "img": "https://i.ibb.co/Dg3fK1v/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/DR01nLt/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/jWVPxRJ/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/vBKzvQ0/leader9.png"
+            },
+            {
+                "img": "https://i.ibb.co/3dVqb2k/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/55tsxQr/leader5.png",
+        "icon": "https://i.ibb.co/6FjQh0q/leader-Board-Up-Arrow.png",
+        "name": "Alex Morgan",
+        "author": "@alex_mo01",
+        "products": [
+            {
+                "img": "https://i.ibb.co/JktNbxB/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/jLFxLWH/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/QF89nFw/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/g77P4tL/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/Y0gGLJC/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/zS3nd9f/leader6.png",
+        "icon": "https://i.ibb.co/sFfPSGK/leader-Board-Down-Arrow.png",
+        "name": "Chiristoper Adam",
+        "author": "@adam_chiris",
+        "products": [
+            {
+                "img": "https://i.ibb.co/m4dzFRK/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/pZGpLWz/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/9tSWpTM/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/dPK75bQ/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/Stqd01f/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/TtdBqrN/leader4.png",
+        "icon": "https://i.ibb.co/6FjQh0q/leader-Board-Up-Arrow.png",
+        "name": "Chiris Morgan",
+        "author": "@chiris_morgan",
+        "products": [
+            {
+                "img": "https://i.ibb.co/GMtk4MF/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/SsDmRFc/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/c1Q460w/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/dm6Zk2t/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/yWRRm03/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/hYm9hMS/leader8.png",
+        "icon": "https://i.ibb.co/6FjQh0q/leader-Board-Up-Arrow.png",
+        "name": "Creative Creator",
+        "author": "@creative_c.tor",
+        "products": [
+            {
+                "img": "https://i.ibb.co/nnxhmCF/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/yhKcgjM/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/tmQMLkX/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/g77P4tL/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/H7N1Nsm/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/vBKzvQ0/leader9.png",
+        "icon": "https://i.ibb.co/sFfPSGK/leader-Board-Down-Arrow.png",
+        "name": "Jenifer Jozep",
+        "author": "@jeni_jozep",
+        "products": [
+            {
+                "img": "https://i.ibb.co/LJZjTn1/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/wrtBpzV/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/bsJq30W/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/RDT74XN/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/N1hzn7f/product5.png"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/kS2z9RP/leader1.png",
+        "icon": "https://i.ibb.co/6FjQh0q/leader-Board-Up-Arrow.png",
+        "name": "Emiliya Carbon",
+        "author": "@emiliya_caor",
+        "products": [
+            {
+                "img": "https://i.ibb.co/CJx8ngh/product1.png"
+            },
+            {
+                "img": "https://i.ibb.co/VHxF8w9/product2.png"
+            },
+            {
+                "img": "https://i.ibb.co/yy7S4XJ/product3.png"
+            },
+            {
+                "img": "https://i.ibb.co/dPK75bQ/product4.png"
+            },
+            {
+                "img": "https://i.ibb.co/LPKthZj/product5.png"
+            }
+        ]
+    }
+]

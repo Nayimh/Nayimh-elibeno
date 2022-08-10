@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "path": "#",
+        "name": "Digital Artwork",
+        "img": "https://i.ibb.co/kH70KQf/artwork.png"
+    },
+    {
+        "id": 2,
+        "path": "#",
+        "name": "Creative Arts",
+        "img": "https://i.ibb.co/CJJZ95b/creative.png"
+    },
+    {
+        "id": 3,
+        "path": "#",
+        "name": "Online Game",
+        "img": "https://i.ibb.co/c6T77dx/poco.png"
+    },
+    {
+        "id": 4,
+        "path": "#",
+        "name": "3D Modeling",
+        "img": "https://i.ibb.co/18dyS5N/3d.png"
+    },
+    {
+        "id": 5,
+        "path": "#",
+        "name": "Discovery",
+        "img": "https://i.ibb.co/WPr0pn4/discover.png"
+    },
+    {
+        "id": 6,
+        "path": "#",
+        "name": "Animation",
+        "img": "https://i.ibb.co/JCstNhm/mic.png"
+    },
+    {
+        "id": 7,
+        "path": "#",
+        "name": "Natureal",
+        "img": "https://i.ibb.co/QYtZDnp/pen.png"
+    },
+    {
+        "id": 8,
+        "path": "#",
+        "name": "3D Artwork",
+        "img": "https://i.ibb.co/cyzzhQL/cube.png"
+    },
+    {
+        "id": 9,
+        "path": "#",
+        "name": "Illustrations",
+        "img": "https://i.ibb.co/6s2tqd3/pencil.png"
+    },
+    {
+        "id": 10,
+        "path": "#",
+        "name": "Music",
+        "img": "https://i.ibb.co/xLBF8rf/music.png"
+    },
+    {
+        "id": 11,
+        "path": "#",
+        "name": "Virtual World",
+        "img": "https://i.ibb.co/fMYk64T/world.png"
+    },
+    {
+        "id": 12,
+        "path": "#",
+        "name": "Creative Arts",
+        "img": "https://i.ibb.co/CJJZ95b/creative.png"
+    }
+]

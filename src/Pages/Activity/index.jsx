@@ -123,8 +123,8 @@ function Activity() {
             activity?.map(active => 
               <div key={active?.id} className="w-full h-[302px] md:h-[132px] justify-center md:justify-between items-center flex flex-col md:flex-row gap-6 rounded-lg bg-lightBlue p-6">
 
-                <div className="flex flex-col items-center md:flex-row gap-4">
-                 <span className="mb-6"> <img src={active?.img} alt="" /> </span>
+                <div className="flex flex-col  items-center md:flex-row gap-4">
+                 <span > <img src={active?.img} alt="" /> </span>
                   <div className="text-center md:text-start">
                   <h1 className="font-syne text-white leading-relaxe font-bold text-2xl mb-2"> {active?.name} </h1>
                   <p className="font-manrope text-xs leading-relaxed text-light-white "> {active?.title} </p>

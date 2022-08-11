@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Explore.scss";
 import { Image } from "../../../assets/Image/index";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function ExploreHome() {
   const [exploreData, setData] = useState([]);
@@ -54,7 +54,7 @@ function ExploreHome() {
                       <p> {data?.title} </p>
                     </div>
                     <Link
-                      state={`Explore > ${data?.id}`}
+                      state={`Item Details > ${data?.id}`}
                       to={`/explore/${data?.id}`}
                     >
                       <div className="btn">

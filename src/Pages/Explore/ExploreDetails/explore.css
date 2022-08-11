@@ -1,0 +1,15 @@
+.content{
+    display: none;
+}
+
+.active-content{
+    display: block;
+}
+
+.active-tabs{
+    background-color: #FA5C6D;
+}
+
+.tabs{
+    background-color: #1A1E49;
+}

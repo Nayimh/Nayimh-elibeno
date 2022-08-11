@@ -11,7 +11,7 @@ function Wallet() {
       .then(data => setWallets(data));
   }, [])
 
-  console.log(wallets)
+ 
 
   return (
     <div >

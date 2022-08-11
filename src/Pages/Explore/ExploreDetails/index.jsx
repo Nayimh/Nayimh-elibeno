@@ -4,6 +4,7 @@ import Header from "../../Layers/CommonHeader";
 import Footer from "../../Layers/Footer";
 import explore from "./explore.json";
 import { Image } from "../../../assets/Image";
+import "./explore.css";
 
 function ExploreDetails() {
   const { id } = useParams();
@@ -11,6 +12,14 @@ function ExploreDetails() {
   const [explores, setExplores] = useState(explore);
 
   const [details, setDetails] = useState({});
+
+  const [toggle, setToggle] = useState(1);
+
+  const [picture, setPicture] = useState();
+
+  const toggleTab = (index) => {
+    setToggle(index);
+  };
 
   useEffect(() => {
     const foundDetails = explores?.find(
@@ -29,7 +38,7 @@ function ExploreDetails() {
             <div>
               <img
                 className=" w-[96%] md:w-[536px] mx-auto h-[395px] object-cover rounded-lg"
-                src={details?.img}
+                src={!picture ? details?.img : picture}
                 alt=""
               />
             </div>
@@ -39,6 +48,7 @@ function ExploreDetails() {
                 <img
                   className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im1}
+                  onClick={() => setPicture(details?.im1)}
                   alt=""
                 />{" "}
               </div>
@@ -47,6 +57,7 @@ function ExploreDetails() {
                 <img
                   className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im2}
+                  onClick={() => setPicture(details?.im2)}
                   alt=""
                 />{" "}
               </div>
@@ -55,6 +66,7 @@ function ExploreDetails() {
                 <img
                   className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im3}
+                  onClick={() => setPicture(details?.im3)}
                   alt=""
                 />{" "}
               </div>
@@ -64,6 +76,7 @@ function ExploreDetails() {
                   className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im4}
                   alt=""
+                  onClick={() => setPicture(details?.im4)}
                 />{" "}
               </div>
               <div>
@@ -72,6 +85,7 @@ function ExploreDetails() {
                   className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im5}
                   alt=""
+                  onClick={() => setPicture(details?.im5)}
                 />{" "}
               </div>
             </div>
@@ -182,17 +196,44 @@ function ExploreDetails() {
               <div className="bg-lightBlue rounded-lg w-full ">
                 <div className="p-6">
                   <div className="flex gap-4 items-center  border-b border-dashed border-neutral-600 pb-4">
-                    <button className="font-manrope leading-loose text-white font-semibold py-2 px-4 bg-pink hover:bg-darkBlue rounded">
+                    <button
+                      className={
+                        toggle === 1
+                          ? "  active-tabs   font-manrope leading-loose text-white font-semibold py-2 px-4  rounded"
+                          : "  tabs   font-manrope leading-loose text-white font-semibold py-2 px-4  rounded"
+                      }
+                      onClick={() => toggleTab(1)}
+                    >
                       Details
                     </button>
-                    <button className="font-manrope leading-loose text-white font-semibold py-2 px-4 bg-darkBlue hover:bg-pink rounded">
+                    <button
+                      className={
+                        toggle === 2
+                          ? "  active-tabs   font-manrope leading-loose text-white font-semibold py-2 px-4  rounded"
+                          : "  tabs   font-manrope leading-loose text-white font-semibold py-2 px-4  rounded"
+                      }
+                      onClick={() => toggleTab(2)}
+                    >
                       Bid
                     </button>
-                    <button className="font-manrope leading-loose text-white font-semibold py-2 px-4 bg-darkBlue hover:bg-pink rounded">
+                    <button
+                      className={
+                        toggle === 3
+                          ? "  active-tabs   font-manrope leading-loose text-white font-semibold py-2 px-4  rounded"
+                          : "  tabs   font-manrope leading-loose text-white font-semibold py-2 px-4  rounded"
+                      }
+                      onClick={() => toggleTab(3)}
+                    >
                       History
                     </button>
                   </div>
-                  <div className="mt-4 mb-10">
+                  <div
+                    className={
+                      toggle === 1
+                        ? "mt-4 mb-10 content active-content"
+                        : "mt-4 mb-10  content"
+                    }
+                  >
                     <p className="font-manrope leading-loose text-light-white ">
                       Rather which, caches regretting of in on parts
                       thing at far at the typically the apprehend who
@@ -200,6 +241,38 @@ function ExploreDetails() {
                       the value pink cache such structure do little
                       beacon on present hologram more quitting my that
                       steps the decided in turn the met and while.
+                    </p>
+                  </div>
+                  <div
+                    className={
+                      toggle === 2
+                        ? "mt-4 mb-10 content active-content"
+                        : "mt-4 mb-10  content"
+                    }
+                  >
+                    <p className="font-manrope leading-loose text-light-white ">
+                      Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Praesentium eligendi maiores
+                      recusandae omnis tempora esse alias quidem
+                      reiciendis inventore exercitationem
+                      necessitatibus, aspernatur a laudantium deleniti
+                      velit saepe et autem quos.
+                    </p>
+                  </div>
+                  <div
+                    className={
+                      toggle === 3
+                        ? "mt-4 mb-10 content active-content"
+                        : "mt-4 mb-10  content"
+                    }
+                  >
+                    <p className="font-manrope leading-loose text-light-white ">
+                      Lorem ipsum dolor, sit amet consectetur
+                      adipisicing elit. Nesciunt, cum? Impedit error
+                      facilis exercitationem nostrum. Accusamus
+                      deserunt magnam voluptas soluta, error
+                      distinctio assumenda ducimus. Praesentium amet
+                      ipsam doloremque molestias labore!
                     </p>
                   </div>
                 </div>

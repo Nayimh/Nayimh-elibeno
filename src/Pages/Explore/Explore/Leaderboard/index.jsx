@@ -22,7 +22,7 @@ function Leaderboard() {
                 
               <div className="flex flex-col gap-6">
                   {
-                      leaders?.map(leader => 
+                      leaders?.map((leader, index) => 
                           <div key={leader?.id} className=" flex  bg-lightBlue rounded-lg justify-between gap-4 w-full p-6">
                               <div className='flex justify-start items-center gap-[10px] md:gap-[43.3px]'> 
                                   <div className="flex gap-2 items-center justify-center">

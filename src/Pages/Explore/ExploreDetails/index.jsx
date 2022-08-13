@@ -6,6 +6,7 @@ import explore from "./explore.json";
 import { Image } from "../../../assets/Image";
 import "./explore.css";
 
+
 function ExploreDetails() {
   const { id } = useParams();
 
@@ -33,20 +34,21 @@ function ExploreDetails() {
       <Header />
 
       <div className="container mx-auto py-20 md:py-[120px]">
-        <div className="flex  flex-wrap justify-center gap-[112px] ">
-          <div className="flex flex-col items-center gap-4 md:gap-6 w-full xl:w-[45%]">
+        <div className="flex  flex-wrap justify-between  ">
+          <div className="flex flex-col items-center mb-24 2xl:mb-0 xl:items-start gap-4 md:gap-6 w-full xl:w-[45%]">
             <div>
+            
               <img
-                className=" w-[96%] md:w-[536px] mx-auto h-[395px] object-cover rounded-lg"
+                className=" w-[536px] md:w-[536px]  h-[395px] object-cover rounded-lg mx-auto lg:mx-0"
                 src={!picture ? details?.img : picture}
                 alt=""
               />
             </div>
-            <div className="flex items-center gap-3 md:gap-6 w-[90%] md:w-[536px] mx-auto">
+            <div className="flex items-center justify-center  gap-3 md:gap-6 w-[100%] md:w-[536px] ">
               <div>
                 {" "}
                 <img
-                  className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
+                  className=" w-[62px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im1}
                   onClick={() => setPicture(details?.im1)}
                   alt=""
@@ -55,7 +57,7 @@ function ExploreDetails() {
               <div>
                 {" "}
                 <img
-                  className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
+                  className=" w-[62px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im2}
                   onClick={() => setPicture(details?.im2)}
                   alt=""
@@ -64,7 +66,7 @@ function ExploreDetails() {
               <div>
                 {" "}
                 <img
-                  className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
+                  className=" w-[62px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im3}
                   onClick={() => setPicture(details?.im3)}
                   alt=""
@@ -73,7 +75,7 @@ function ExploreDetails() {
               <div>
                 {" "}
                 <img
-                  className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
+                  className=" w-[62px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im4}
                   alt=""
                   onClick={() => setPicture(details?.im4)}
@@ -82,7 +84,7 @@ function ExploreDetails() {
               <div>
                 {" "}
                 <img
-                  className=" w-[75px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
+                  className=" w-[62px] h-[62px] md:w-[88px] md:h-[88px] rounded-lg object-cover cursor-pointer"
                   src={details?.im5}
                   alt=""
                   onClick={() => setPicture(details?.im5)}
@@ -112,15 +114,15 @@ function ExploreDetails() {
                 </span>
               </div>
               <div className="flex gap-1 items-center">
-                <span className="w-[29px] h-[29px] bg-lightBlue rounded grid justify-center items-center cursor-pointer">
+                <span className="w-[29px] h-[29px] bg-lightBlue rounded grid justify-center items-center cursor-pointer hover:-mt-2 delay-100">
                   {" "}
                   <img src={Image?.star} alt="" />{" "}
                 </span>
-                <span className="w-[29px] h-[29px] bg-lightBlue rounded grid justify-center items-center cursor-pointer">
+                <span className="w-[29px] h-[29px] bg-lightBlue rounded grid justify-center items-center cursor-pointer hover:-mt-2 delay-100">
                   {" "}
                   <img src={Image?.share} alt="" />{" "}
                 </span>
-                <span className="w-[29px] h-[29px] bg-lightBlue rounded grid justify-center items-center cursor-pointer">
+                <span className="w-[29px] h-[29px] bg-lightBlue rounded grid justify-center items-center cursor-pointer hover:-mt-2 delay-100">
                   {" "}
                   <img src={Image?.heart} alt="" />{" "}
                 </span>
@@ -230,8 +232,8 @@ function ExploreDetails() {
                   <div
                     className={
                       toggle === 1
-                        ? "mt-4 mb-10 content active-content"
-                        : "mt-4 mb-10  content"
+                        ? "mt-4  content active-content"
+                        : "mt-4   content"
                     }
                   >
                     <p className="font-manrope leading-loose text-light-white ">
@@ -246,8 +248,8 @@ function ExploreDetails() {
                   <div
                     className={
                       toggle === 2
-                        ? "mt-4 mb-10 content active-content"
-                        : "mt-4 mb-10  content"
+                        ? "mt-4  content active-content"
+                        : "mt-4   content"
                     }
                   >
                     <p className="font-manrope leading-loose text-light-white ">
@@ -262,8 +264,8 @@ function ExploreDetails() {
                   <div
                     className={
                       toggle === 3
-                        ? "mt-4 mb-10 content active-content"
-                        : "mt-4 mb-10  content"
+                        ? "mt-4  content active-content"
+                        : "mt-4  content"
                     }
                   >
                     <p className="font-manrope leading-loose text-light-white ">

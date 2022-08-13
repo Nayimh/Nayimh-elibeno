@@ -16,7 +16,7 @@ function ExploreHome() {
     <div className="explore pb-[120px] ">
       <div className="explore__container container mx-auto ">
         <div className="explore__heading">
-          <h1 className="text-2xl  md:text-4xl lg:text-5xl  ">
+          <h1 className="text-2xl  md:text-4xl lg:text-5xl font-semibold md:font-bold ">
             Explore NFTs
           </h1>
           <Link state="Explore" to="/explore">

@@ -9,7 +9,7 @@ function Banner() {
       <div className="hero__container container">
         <Navbar />
 
-        <div className="banner mb-[120px]">
+        <div className="banner mb-20 md:mb-[120px]">
           <div className="banner__content--wrapper">
             <div className="banner__text">
               <h1>Collect rare digital arts & nft’s today.</h1>

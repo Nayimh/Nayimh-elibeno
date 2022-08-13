@@ -15,14 +15,14 @@ function Auction() {
     <div className="py-20 md:py-[120px]">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-16">
-          <h1 className="text-3xl md:text-4xl  xl:text-5xl font-bold font-syne text-white leading-relaxed">
+          <h1 className="text-2xl md:text-4xl  xl:text-5xl font-semibold md:font-bold font-syne text-white leading-relaxed">
             Live Auction
           </h1>
           <Link state="Live Auction" to="/auction">
             {" "}
             <div className="flex justify-center items-center rounded-lg bg-lightBlue  py-3 px-6 gap-2 cursor-pointer">
               {" "}
-              <p className="text-white"> Explore More </p>{" "}
+              <p className="text-white text-sm md:text-base"> Explore More </p>{" "}
               <span>
                 {" "}
                 <img src={Image?.circle} alt="" />{" "}

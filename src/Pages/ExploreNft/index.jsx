@@ -16,7 +16,7 @@ function ExploreNft() {
         <div className='py-[80px] md:py-[120px]'>
             <div className="container mx-auto">
                     <div className="flex justify-between items-center mb-16">
-                    <h1 className='text-3xl md:text-4xl  xl:text-5xl font-bold font-syne text-white leading-relaxed'>Explore NFTs</h1>
+                    <h1 className='text-2xl md:text-4xl  xl:text-5xl font-semibold md:font-bold font-syne text-white leading-relaxed'>Explore NFTs</h1>
                   <Link state="Explore" to="/explore">  <div className='flex justify-center items-center rounded-lg bg-lightBlue py-3 px-6 gap-2 cursor-pointer'> <p className='text-white'> Explore More </p> <span> <img src={Image?.circle} alt="" /> </span> </div> </Link>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center place-items-center">

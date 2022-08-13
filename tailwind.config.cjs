@@ -5,11 +5,19 @@ module.exports = {
   theme: {
     screens: {
 
-      sm: '480px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1170px',
-      '2xl': '1320px'
+      sm: '510px',
+      md: '798px',
+      lg: '1054px',
+      xl: '1200px',
+      '2xl': '1350px'
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '15px',
+       
+      },
+    
     },
     
 
